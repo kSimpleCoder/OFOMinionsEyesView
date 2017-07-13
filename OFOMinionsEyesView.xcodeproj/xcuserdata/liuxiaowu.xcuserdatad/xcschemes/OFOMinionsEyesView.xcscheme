@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "76F6BD3F1F175DC5002C986C"
+               BuildableName = "OFOMinionsEyesView.app"
+               BlueprintName = "OFOMinionsEyesView"
+               ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "76F6BD581F175DC5002C986C"
+               BuildableName = "OFOMinionsEyesViewTests.xctest"
+               BlueprintName = "OFOMinionsEyesViewTests"
+               ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "76F6BD631F175DC5002C986C"
+               BuildableName = "OFOMinionsEyesViewUITests.xctest"
+               BlueprintName = "OFOMinionsEyesViewUITests"
+               ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76F6BD3F1F175DC5002C986C"
+            BuildableName = "OFOMinionsEyesView.app"
+            BlueprintName = "OFOMinionsEyesView"
+            ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76F6BD3F1F175DC5002C986C"
+            BuildableName = "OFOMinionsEyesView.app"
+            BlueprintName = "OFOMinionsEyesView"
+            ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76F6BD3F1F175DC5002C986C"
+            BuildableName = "OFOMinionsEyesView.app"
+            BlueprintName = "OFOMinionsEyesView"
+            ReferencedContainer = "container:OFOMinionsEyesView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

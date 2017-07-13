@@ -15,6 +15,8 @@
 		76F6BD531F175DC5002C986C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F6BD511F175DC5002C986C /* LaunchScreen.storyboard */; };
 		76F6BD5E1F175DC5002C986C /* OFOMinionsEyesViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F6BD5D1F175DC5002C986C /* OFOMinionsEyesViewTests.m */; };
 		76F6BD691F175DC5002C986C /* OFOMinionsEyesViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F6BD681F175DC5002C986C /* OFOMinionsEyesViewUITests.m */; };
+		76F6BD7A1F175DE3002C986C /* OFOMinionsEyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F6BD771F175DE3002C986C /* OFOMinionsEyesView.m */; };
+		76F6BD7B1F175DE3002C986C /* OFOMinionsHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F6BD791F175DE3002C986C /* OFOMinionsHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		76F6BD641F175DC5002C986C /* OFOMinionsEyesViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OFOMinionsEyesViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F6BD681F175DC5002C986C /* OFOMinionsEyesViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OFOMinionsEyesViewUITests.m; sourceTree = "<group>"; };
 		76F6BD6A1F175DC5002C986C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F6BD761F175DE3002C986C /* OFOMinionsEyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFOMinionsEyesView.h; sourceTree = "<group>"; };
+		76F6BD771F175DE3002C986C /* OFOMinionsEyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFOMinionsEyesView.m; sourceTree = "<group>"; };
+		76F6BD781F175DE3002C986C /* OFOMinionsHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFOMinionsHeadView.h; sourceTree = "<group>"; };
+		76F6BD791F175DE3002C986C /* OFOMinionsHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFOMinionsHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				76F6BD471F175DC5002C986C /* AppDelegate.m */,
 				76F6BD491F175DC5002C986C /* ViewController.h */,
 				76F6BD4A1F175DC5002C986C /* ViewController.m */,
+				76F6BD761F175DE3002C986C /* OFOMinionsEyesView.h */,
+				76F6BD771F175DE3002C986C /* OFOMinionsEyesView.m */,
+				76F6BD781F175DE3002C986C /* OFOMinionsHeadView.h */,
+				76F6BD791F175DE3002C986C /* OFOMinionsHeadView.m */,
 				76F6BD4C1F175DC5002C986C /* Main.storyboard */,
 				76F6BD4F1F175DC5002C986C /* Assets.xcassets */,
 				76F6BD511F175DC5002C986C /* LaunchScreen.storyboard */,
@@ -274,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F6BD4B1F175DC5002C986C /* ViewController.m in Sources */,
+				76F6BD7A1F175DE3002C986C /* OFOMinionsEyesView.m in Sources */,
 				76F6BD481F175DC5002C986C /* AppDelegate.m in Sources */,
 				76F6BD451F175DC5002C986C /* main.m in Sources */,
+				76F6BD7B1F175DE3002C986C /* OFOMinionsHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

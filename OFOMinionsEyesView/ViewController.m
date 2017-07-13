@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OFOMinionsHeadView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    OFOMinionsHeadView * headView = [[OFOMinionsHeadView alloc] initWithFrame:CGRectMake(60, 300, 200, 200)];
+    [self.view addSubview:headView];
 }
 
 
